@@ -34,6 +34,8 @@
                 "motivation": "painting",
                 "body": {
                   "id": "https://archive.org/download/camille/camille.ogv",
+                    "type": "Video",
+                    "format": "video/ogv",
                     "duration": 142.0
                 },
                 "target": "https://saracarl.github.io/ytdownloader/archiveorgvideo/canvas-1/canvas"
