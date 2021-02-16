@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saracarl.github.io/ytdownloader/archiveorgvideo/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "archiveorgvideo" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "archiveorgvideo" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saracarl.github.io/ytdownloader/archiveorgvideo/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 142.0,
+        "items": [
+          {
+            "id": "https://saracarl.github.io/ytdownloader/archiveorgvideo/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saracarl.github.io/ytdownloader/archiveorgvideo/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/camille/camille.ogv",
+                    "duration": 142.0
+                },
+                "target": "https://saracarl.github.io/ytdownloader/archiveorgvideo/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
