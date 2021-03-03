@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saracarl.github.io/ytdownloader/loc-video/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "LOC-video" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "LOC-video" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saracarl.github.io/ytdownloader/loc-video/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 640.0,
+        "items": [
+          {
+            "id": "https://saracarl.github.io/ytdownloader/loc-video/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saracarl.github.io/ytdownloader/loc-video/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://stream-media.loc.gov/ammem/mbrsascfr/5147s1.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 640.0
+                },
+                "target": "https://saracarl.github.io/ytdownloader/loc-video/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
